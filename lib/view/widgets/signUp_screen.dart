@@ -142,10 +142,11 @@ class SignUpScreen extends StatelessWidget {
                   Text(
                     "Already have an Account",
                     style: AppTextstyle.withColor(
-                      AppTextstyle.bodyMedium,
+                      AppTextstyle.h3,
                       isDark ? Colors.grey[400]! : Colors.grey[600]!,
                     ),
                   ),
+                      SizedBox(width: 4),
                   TextButton(
                     onPressed: () => Get.to(() => SigninScreen()),
                     child: Text(
