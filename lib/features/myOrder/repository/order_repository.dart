@@ -10,7 +10,7 @@ class OrderRepository {
         itemCount: 2,
         totalAmount: 2938.3,
         status: OrderStatus.active,
-        imageUrl: "assets/images/laptop.jpg",
+        imageUrl: "assets/images/rolex2.jpg",
         orderDate: DateTime.now().subtract(const Duration(hours: 2)), 
       ), 
          Order(
@@ -18,7 +18,7 @@ class OrderRepository {
         itemCount: 2,
         totalAmount: 2178.3,
         status: OrderStatus.active,
-        imageUrl: "assets/images/shoe.jpg",
+        imageUrl: "assets/images/jacob4.jpg",
         orderDate: DateTime.now().subtract(const Duration(hours: 2)), 
       ), 
          Order(
@@ -26,7 +26,7 @@ class OrderRepository {
         itemCount: 6,
         totalAmount: 4563.3,
         status: OrderStatus.completed,
-        imageUrl: "assets/images/shoe2.jpg",
+        imageUrl: "assets/images/richard1.jpg",
         orderDate: DateTime.now().subtract(const Duration(hours: 7)), 
       ), 
          Order(
@@ -34,7 +34,7 @@ class OrderRepository {
         itemCount: 2,
         totalAmount: 2938.3,
         status: OrderStatus.cancelled,
-        imageUrl: "assets/images/shoe.jpg",
+        imageUrl: "assets/images/jacob1.jpg",
         orderDate: DateTime.now().subtract(const Duration(hours: 9)), 
       ), 
     ];
